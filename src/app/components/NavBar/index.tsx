@@ -25,8 +25,8 @@ export default function NavBar() {
     ]
 
     return(
-        <nav className="bg-gray-800 px-4 py-2">
-            <div className="container mx-auto flex justify-between">
+        <nav className="bg-gray-800 text-white">
+            <div className="container mx-auto flex justify-between items-center py-2">
                 {/* Logo */}
                 <Link href="/">
                     <Image 
@@ -48,11 +48,13 @@ export default function NavBar() {
                     ))}
                 </ul>
                 
-                <div className="md:hidden justify-center items-center">
+                <div className="md:hidden justify-center">
                     {/* Botão hamburguer */}
                     <HamburguerMenu navItems={ navItems }/>
                 </div>
             </div>
+
+            
         </nav>
     );
 }
