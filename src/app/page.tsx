@@ -1,5 +1,4 @@
 import { Main } from "next/document";
-import NavBar from "./components/NavBar";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -57,13 +56,27 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Galeria */}
-      <section id="galeria" className="py-12 bg-gray-100 px-4">
-        <h3 className="text-2xl font-bold text-center mb-8">Galeria de Fotos</h3>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {["/foto1.jpg", "/foto2.jpg", "/foto3.jpg", "/foto4.jpg"].map((src, idx) => (
-            <Image key={idx} src={src} alt={`Foto ${idx + 1}`} width={200} height={200} className="rounded shadow mx-auto" />
-          ))}
+      {/* Pets */}
+      <section id="pets" className="py-12 bg-gray-100 px-4">
+        <h3 className="text-2xl font-bold text-center mb-8">Pets</h3>
+        
+        <div className="relative max-w-xs bg-gray-600">
+          <Image 
+            src="/moldura_celular.png" 
+            alt="Celular" 
+            width={500} 
+            height={800} 
+            className=""
+          />
+          <div className="absolute top-[12%] left-[9%] w-[82%] h-[76%] rounded-xl overflow-hidden">
+            <iframe
+              className="w-full h-full"
+              src="https://www.youtube.com/embed/SEU_VIDEO_AQUI"
+              title="Pets felizes"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
       </section>
 
