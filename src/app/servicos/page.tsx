@@ -1,31 +1,39 @@
 // app/servicos/page.tsx
 import Image from "next/image";
+import Link from "next/link";
 
 
 const services = [
   {
+    title: "Pets",
+    image: "/pets/pet1.jpeg",
+    slug: "pets",
+
+  },
+  {
     title: "Janelas",
     image: "/janelas/janela25.jpeg",
+    slug: "janelas",
   },
   {
     title: "Sacadas",
     image: "/sacadas/sacada33.jpeg",
+    slug: "sacadas",
   },
   {
     title: "Coberturas",
     image: "/coberturas/cobertura7.jpeg",
-  },
-  {
-    title: "Pets",
-    image: "/pets/pet1.jpeg",
+    slug: "coberturas",
   },
   {
     title: "Escadas",
     image: "/escadas/escada2.jpeg",
+    slug: "escadas",
   },
   {
     title: "Piscinas",
-    image: "/piscina.jpg",
+    image: "/piscinas/piscina2.jpg",
+    slug: "piscinas",
   },
 ];
 
@@ -41,29 +49,22 @@ export default function ServicosPage() {
 
       {/* Services List */}
       <section className="max-w-7xl mx-auto px-4 py-12 grid gap-10 md:grid-cols-3">
-        
         {services.map((service, index) => (
-          <div key={index} className="bg-white rounded-2xl shadow-md overflow-hidden">
-            <Image
-              src={service.image}
-              alt={service.title}
-              width={500}
-              height={500}
-              className="w-full h-80 object-cover"
-            />
-            <div className="p-4">
-              <h2 className="text-xl font-semibold mb-2">{service.title}</h2>
+          <Link key={index} href={`/servicos/${service.slug}`} className="bg-white rounded-2xl shadow-md overflow-hidden hover:scale-105 transition-transform">
+            <div>
+              <Image
+                src={service.image}
+                alt={service.title}
+                width={500}
+                height={500}
+                className="w-full h-80 object-cover"
+              />
+              <div className="p-4">
+                <h2 className="text-xl font-semibold mb-2">{service.title}</h2>
+              </div>
             </div>
-          </div>
+          </Link>
         ))}
-      </section>
-
-      {/* Call to Action */}
-      <section className="text-center py-8">
-        <h2 className="text-2xl font-bold mb-4">Quer um orçamento gratuito?</h2>
-        <a href="/contato" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition">
-          Fale Conosco
-        </a>
       </section>
     </div>
   );
