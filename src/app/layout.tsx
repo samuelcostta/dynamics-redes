@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import NavBar from "./components/NavBar";
+import { FaWhatsapp } from "react-icons/fa";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -28,9 +29,17 @@ export default function RootLayout({
       {/* Contato */}
       <section id="contato" className="py-12 bg-gray-800 text-white text-center">
         <h3 className="text-2xl font-bold mb-4">Solicite um orçamento agora!</h3>
-        <p className="mb-6">Entre em contato via WhatsApp ou preencha nosso formulário.</p>
+        <p className="mb-6">Entre em contato conosco</p>
         <div className="space-x-4">
-          <a href="https://wa.me/SEUNUMERO" target="_blank" className="bg-gray-400 text-white px-6 py-2 rounded hover:bg-gray-500">WhatsApp</a>
+          <a
+            href="https://wa.me/5562999999999" // Substitua pelo número real com DDD
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-3 bg-green-600 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-green-700 transition"
+          >
+            <FaWhatsapp className="text-2xl" />
+            Falar no WhatsApp
+          </a>
         </div>
       </section>
 
