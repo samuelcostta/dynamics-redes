@@ -3,26 +3,31 @@ import Image from "next/image";
 import ImageGallery from "@/components/ImageGallery";
 
 const imagens = [
+  "/janelas/janela26.jpeg",
+  "/janelas/janela12.jpeg",
   "/janelas/janela25.jpeg",
   "/janelas/janela24.jpeg",
   "/janelas/janela23.jpeg",
+  "/janelas/janela9.jpeg",
   "/janelas/janela22.jpeg",
   "/janelas/janela20.jpeg",
+  "/janelas/janela21.jpeg",
   "/janelas/janela1.jpeg",
   "/janelas/janela2.jpeg",
   "/janelas/janela3.jpeg",
   "/janelas/janela4.jpeg",
-  "/janelas/janela5.jpeg",
   "/janelas/janela6.jpeg",
   "/janelas/janela7.jpeg",
   "/janelas/janela8.jpeg",
-  "/janelas/janela9.jpeg",
   "/janelas/janela10.jpeg",
   "/janelas/janela11.jpeg",
-  "/janelas/janela12.jpeg",
   "/janelas/janela13.jpeg",
   "/janelas/janela14.jpeg",
+  "/janelas/janela5.jpeg",
   "/janelas/janela17.jpeg",
+  "/janelas/janela27.jpeg",
+  "/janelas/janela18.jpeg",
+  "/janelas/janela19.jpeg",
 ];
 
 export default function JanelaPage() {

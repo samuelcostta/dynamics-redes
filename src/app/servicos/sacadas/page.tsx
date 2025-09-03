@@ -1,20 +1,20 @@
 import ImageGallery from "@/components/ImageGallery";
 
 const imagens = [
-    "/sacadas/sacada4.jpeg",
-    "/sacadas/sacada5.jpeg",
-    "/sacadas/sacada6.jpeg",
-    "/sacadas/sacada7.jpeg",
-    "/sacadas/sacada8.jpeg",
-    "/sacadas/sacada9.jpeg",
-    "/sacadas/sacada10.jpeg",
-    "/sacadas/sacada11.jpeg",
-    "/sacadas/sacada14.jpeg",
-    "/sacadas/sacada18.jpeg",
+    "/sacadas/sacada44.jpeg",
+    "/sacadas/sacada41.jpeg",
+    "/sacadas/sacada54.jpeg",
+    "/sacadas/sacada39.jpeg",
+    "/sacadas/sacada38.jpeg",
+    "/sacadas/sacada45.jpeg",
+    "/sacadas/sacada36.jpeg",
     "/sacadas/sacada31.jpeg",
+    "/sacadas/sacada42.jpeg",
     "/sacadas/sacada32.jpeg",
-    "/sacadas/sacada33.jpeg",
-    "/sacadas/sacada34.jpeg",
+    "/sacadas/sacada53.jpeg",
+    "/sacadas/sacada37.jpeg",
+    "/sacadas/sacada43.jpeg",
+    "/sacadas/sacada52.jpeg",
     "/sacadas/sacada35.jpeg"
 ];
 

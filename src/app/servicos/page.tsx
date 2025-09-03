@@ -31,7 +31,7 @@ const services = [
     slug: "escadas",
   },
   {
-    title: "Piscinas",
+    title: "Teste Drive",
     image: "/piscinas/piscina2.jpg",
     slug: "piscinas",
   },
