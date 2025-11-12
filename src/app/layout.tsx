@@ -32,7 +32,7 @@ export default function RootLayout({
         <p className="mb-6">Entre em contato conosco</p>
         <div className="space-x-4">
           <a
-            href="https://wa.me/5562999999999" // Substitua pelo número real com DDD
+            href="https://wa.me/5562993514863" // Substitua pelo número real com DDD
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-green-600 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-green-700 transition"
@@ -45,7 +45,7 @@ export default function RootLayout({
 
       {/* Rodapé */}
       <footer className="text-center text-sm text-gray-500 py-4 bg-gray-100">
-        &copy; 2025 Dynamics Redes e Telas de Proteção | CNPJ 00.000.000/0001-00
+        &copy; 2025 Dynamics Redes e Telas de Proteção | CNPJ 52.588.786/0001-03
       </footer>
       </body>
     </html>

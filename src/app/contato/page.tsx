@@ -7,7 +7,7 @@ export default function ContatoPage() {
   return (
     <section
       className="relative bg-gray-100 py-16 px-4 min-h-screen bg-cover bg-center"
-      style={{ backgroundImage: "url('/background/goiania2.png')" }} // substitua pela sua imagem
+      style={{ backgroundImage: "url('/background/goiania2.png')" }}
     >
       <div className="absolute inset-0 bg-white/80 backdrop-blur-sm" />
 
@@ -22,7 +22,7 @@ export default function ContatoPage() {
         </p>
 
         <a
-          href="https://wa.me/5562999999999" // Substitua pelo número real
+          href="https://wa.me/5562993514863"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-3 bg-green-600 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-green-700 transition"

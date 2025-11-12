@@ -13,9 +13,9 @@ export default function Home() {
           <p className="mb-6 text-lg max-w-xl">
             Telas para janelas, sacadas, escadas e piscinas com instalação profissional.
           </p>
-          <Link href="/contato" className="bg-green-600 px-6 py-3 rounded text-white hover:bg-green-700 transition-colors">
+          <a href="https://wa.me/5562993514863" target="_blank" className="bg-green-600 px-6 py-3 rounded text-white hover:bg-green-700 transition-colors">
             Solicitar Orçamento Grátis
-          </Link>
+          </a>
         </div>
       </section>
 
@@ -55,6 +55,14 @@ export default function Home() {
               </Link>
             </div>
           ))}
+        </div>
+
+        <div className="flex justify-center mt-10">
+          <Link href="/diferenciais"
+                className="inline-flex items-center gap-3 bg-black/50 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-black/60 transition"
+          >
+            Testes de resistência
+          </Link>
         </div>
       </section>
 
@@ -104,7 +112,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      
     </main>  
   );
 }

@@ -11,12 +11,16 @@ export default function NavBar() {
             label: "Início"
         },
         {
-            url: "/sobre",
-            label: "Sobre"
-        },
-        {
             url: "/servicos",
             label: "Serviços"
+        },
+        {
+            url: "/diferenciais",
+            label: "Diferenciais"
+        },
+        {
+            url: "/sobre",
+            label: "Sobre"
         },
         {
             url: "/contato",

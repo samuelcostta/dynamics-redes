@@ -29,12 +29,7 @@ const services = [
     title: "Escadas",
     image: "/escadas/escada2.jpeg",
     slug: "escadas",
-  },
-  {
-    title: "Teste Drive",
-    image: "/piscinas/piscina2.jpg",
-    slug: "piscinas",
-  },
+  }
 ];
 
 export default function ServicosPage() {
