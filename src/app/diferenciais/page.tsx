@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 
 export default function Diferenciais() {
   const feedbacks = [
-    "feedbacks/feedback_izabella.png",
-    "feedbacks/feedback_claudia_morais.png",
+    "feedbacks/feedback_izabella.PNG",
+    "feedbacks/feedback_claudia_morais.PNG",
     "feedbacks/feedback_toon.png",
-    "feedbacks/feedback_bruna.png",
+    "feedbacks/feedback_bruna.PNG",
     "feedbacks/feedback_mariela.png",
-    "feedbacks/feedback_rosecristine.png",
+    "feedbacks/feedback_rosecristine.PNG",
     "feedbacks/feedback_francielly.png",
   ];
 

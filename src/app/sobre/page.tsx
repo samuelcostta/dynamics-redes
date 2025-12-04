@@ -24,13 +24,13 @@ export default function Sobre() {
         {/* ================== SEÇÃO DO FUNDADOR ================== */}
         <div className="flex flex-col md:flex-row items-center md:items-start gap-10 mb-24">
           <div className="flex-shrink-0">
-            <Image
+            {/* <Image
               src="/sobre/Arthur_IA2.jpg"
               alt="Foto do fundador"
               width={200}
               height={200}
               className="rounded-2xl shadow-lg object-cover mx-auto md:mx-0"
-            />
+            /> */}
           </div>
 
           <div className="flex-1 text-center md:text-left">

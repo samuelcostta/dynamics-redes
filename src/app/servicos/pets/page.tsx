@@ -4,7 +4,7 @@ const imagens = [
   "/pets/pet1.jpeg",
   "/pets/pet2.jpeg",
   "/pets/pet4.jpeg",
-  "/pets/pet3.jpg"
+  "/pets/pet3.jpeg"
 ];
 
 export default function PetsPage() {
